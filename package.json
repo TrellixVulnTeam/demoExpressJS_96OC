@@ -1,0 +1,21 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "watch": "node-sass --watch ./src/resource/scss/app.scss ./src/public/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-handlebars": "^6.0.5",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
